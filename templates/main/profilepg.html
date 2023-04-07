@@ -1,0 +1,86 @@
+{% extends "main/header.html" %}
+{% block content %}
+<!--HEADER-->
+<div class="header">
+    <a href="#default" class="logo">
+
+      <img src="{% static 'images/logobutton.jpg' %}" alt="Logo">
+      
+      <img src="logobutton.jpg">
+  
+    </a>
+    <div class="header-right">
+      <input type="text" placeholder="Search"/>
+      <button type="submit" class="search-button">
+        <img src="magniftngglss.svg.png">
+      </button>
+        
+    </div>
+  
+    </div>
+    
+  </div>
+
+
+  
+  
+  <!--TABS-->
+  <div class="tab">
+    
+      <button class="tablinks" onclick="openPage(event, 'home')">HOME</button>
+    
+      <button class="tablinks" onclick="openPage(event, 'featured')">FEATURED</button>
+    
+      <button class="tablinks" onclick="openPage(event, 'videos')">VIDEOS</button>
+    
+      <button class="tablinks" onclick="openPage(event, 'community')">COMMUNITY</button>
+    </div>
+
+<!--Main Page-->
+<!--Left Side -->
+
+<div class="pfp">
+  <div class="pfptop">
+    Welcome, X
+  </div>
+  <div class="pfpc">
+    <img src="capybaradrip.jpg">
+  </div>
+</div>
+
+<div class="interest";>
+  <div class="interest_top";>
+    Hobbies
+  </div>
+
+  -1<br>
+
+  -2<br>
+  -3<br>
+
+  
+</div>
+
+<!--Right side-->
+<div class="bio">
+  <div class="bioA">
+    Top Bio
+  </div>
+
+    Bio
+</div>
+<div class="bio">
+
+  <div class="bioA">
+    Top Bio2
+  </div>
+  Bio
+</div>
+
+
+
+
+
+
+  
+{% endblock content %}
